@@ -1,7 +1,7 @@
 # CVEs-for-picoc-3.2.2
 Reproduction files for CVE-2022-44312 through CVE-2022-44321
 
-## CVEs 
+## CVE Reference
 * [PicoC v3.2.2 Heap Overflow in the ExpressionCoerceInteger function in expression.c (CVE-2022-44312)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44312)
 * [PicoC v3.2.2 Heap Overflow in the ExpressionCoerceUnsignedInteger function in expression.c (CVE-2022-44313)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44313)
 * [PicoC v3.2.2 Heap Overflow in the StringStrncpy function in cstdlib/string.c (CVE-2022-44314)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44314)

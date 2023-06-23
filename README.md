@@ -13,3 +13,11 @@ Reproduction files for CVE-2022-44312 through CVE-2022-44321
 * [PicoC v3.2.2 Heap Overflow in the ExpressionCoerceFP function in expression.c (CVE-2022-44320)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44320)
 * [PicoC v3.2.2 Heap Overflow in the LexSkipComment function in lex.c (CVE-2022-44321)](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-44321)
 
+## Replication
+
+1. Unzip picoc-3.2.2.zip and compile Picoc.
+2. Unzip cve-files.zip and run the relevant reproduction file through the interpreter:
+
+```
+picoc -s [reproduction_filename.c]
+```
